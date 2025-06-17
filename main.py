@@ -4,6 +4,7 @@ import time
 #Here we are importing time standard module
 
 now=time.strftime("%b %d,%y %H:%M:%S")
+print("The current time")
 print(f"It is {now}")
 
 while True:
